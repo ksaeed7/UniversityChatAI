@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/conversationListContent"
+        android:layout_alignParentEnd="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="150dp"
+        android:background="@drawable/list_selected"
+        android:text="Message"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:textColor="#000" />
+
+
+</RelativeLayout>

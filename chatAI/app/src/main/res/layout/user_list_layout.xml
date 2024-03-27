@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/chat_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@null"
+    tools:context=".ConvoListActivity">
+
+
+    <ListView
+        android:id="@+id/user_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="4dp"
+        android:clipToPadding="false"
+        android:divider="@drawable/list_divider"
+        android:choiceMode="singleChoice"
+        android:paddingTop="8dp"
+        android:paddingBottom="4dp"
+        android:scrollbarStyle="outsideOverlay"
+        android:stackFromBottom="false"
+        android:transcriptMode="normal" />
+
+</RelativeLayout>

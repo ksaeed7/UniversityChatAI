@@ -1,0 +1,115 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateUser {
+  onCreateUser {
+    id
+    name
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+subscription OnUpdateUser {
+  onUpdateUser {
+    id
+    name
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+subscription OnDeleteUser {
+  onDeleteUser {
+    id
+    name
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+subscription OnCreateMessage {
+  onCreateMessage {
+    id
+    content
+    conversationID
+    date
+    message_sender
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+subscription OnUpdateMessage {
+  onUpdateMessage {
+    id
+    content
+    conversationID
+    date
+    message_sender
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+subscription OnDeleteMessage {
+  onDeleteMessage {
+    id
+    content
+    conversationID
+    date
+    message_sender
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+subscription OnCreateConversation {
+  onCreateConversation {
+    id
+    name
+    recipient
+    sender
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+subscription OnUpdateConversation {
+  onUpdateConversation {
+    id
+    name
+    recipient
+    sender
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+subscription OnDeleteConversation {
+  onDeleteConversation {
+    id
+    name
+    recipient
+    sender
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}

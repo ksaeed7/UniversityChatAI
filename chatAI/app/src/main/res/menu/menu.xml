@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ChatActivity"
+    >
+
+    <item
+        android:id="@+id/signout"
+        android:title="Sign out"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/action_searchUser"
+        android:icon="@drawable/search_icon"
+        android:title="search"
+        app:showAsAction="always"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        />
+
+</menu>
+
