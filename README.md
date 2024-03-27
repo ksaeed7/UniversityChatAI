@@ -92,6 +92,14 @@ To enhance the chatbot's performance and make its responses more aligned with th
 - **Android App**: Build the APK in Android Studio for distribution.
 - **AWS Backend**: Deploy using the Amplify CLI.
 
+## NOTE
+- This project still needs a lot of work and is still a work in progress. Will continue to work on it when I have time.
+  ### Suggested work
+  - Restructuring graphql schema to have more efficient data acquisition.
+  - Refactor client code to use CLEAN architecture and a MVVM/MVP approach.
+  - Scaling either by using the serverless function or transition to a server keeping scalability in mind.
+  
+
 ## Contributing
 
 Contributions are welcome. Please fork the repository, commit your changes, and submit a pull request.
